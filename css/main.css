@@ -57,6 +57,7 @@ body {
     gap:0;
     margin: 0;
     padding: 10px;
+    box-sizing: border-box;
   }
 
   .emoji h2 {
@@ -70,9 +71,10 @@ body {
 
   .emoji p {
     order: 3;
+    flex-grow: 1;
   }
 
   .emoji a {
     order: 4;
-    text-align: center;
+    text-align: left;
   }
